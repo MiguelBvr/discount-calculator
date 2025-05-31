@@ -41,6 +41,3 @@ preco_final = round(preco_com_desconto, 2)
 
 
 print(f'valor final do ingresso é de R${preco_final}')
-
-
-print(f'valor final do ingresso é de R${preco_final}')
