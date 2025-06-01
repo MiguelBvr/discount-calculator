@@ -1,4 +1,4 @@
-print("CAUCULADOR DE DESCONTO\n")
+print("CAUCULADORA DE DESCONTO\n")
 
 
 try:
@@ -24,12 +24,12 @@ else:
         print('Essa idade não existe.')
 
     verif_student = input('você é estudante? (sim/não) ').lower()
-    if verif_student not in {'sim', 's', 'não', 'n'}:
+    if verif_student not in ['sim', 's', 'não', 'n']:
         print('Apenas sim e não')
     else:
 
         verif_cumpom = input('você tem desconto? (sim/não) ').lower()
-        if verif_cumpom not in {'sim', 's', 'não', 'n'}:
+        if verif_cumpom not in ['sim', 's', 'não', 'n']:
             print('Apenas sim e não')
         else:
 
